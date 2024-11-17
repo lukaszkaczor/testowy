@@ -1,0 +1,976 @@
+undefined:1
+<!DOCTYPE html> <html lang=pl><!--
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:5472:19)
+    at successSteps (node:internal/deps/undici/undici:5454:27)
+    at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async consumeBody (node:internal/deps/undici/undici:5463:7)
+
+Node.js v20.17.0
+undefined:1
+<!DOCTYPE html> <html lang=pl><!--
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:5472:19)
+    at successSteps (node:internal/deps/undici/undici:5454:27)
+    at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async consumeBody (node:internal/deps/undici/undici:5463:7)
+
+Node.js v20.17.0
+undefined:1
+<!DOCTYPE html> <html lang=pl><!--
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:5472:19)
+    at successSteps (node:internal/deps/undici/undici:5454:27)
+    at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async consumeBody (node:internal/deps/undici/undici:5463:7)
+
+Node.js v20.17.0
+undefined:1
+<!DOCTYPE html> <html lang=pl><!--
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:5472:19)
+    at successSteps (node:internal/deps/undici/undici:5454:27)
+    at fullyReadBody (node:internal/deps/undici/undici:4381:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async consumeBody (node:internal/deps/undici/undici:5463:7)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[953368:953368:1115/064722.318181:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/064722.319362:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/064722.324987:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/064722.325007:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[956181:956181:1115/064732.097798:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/064732.099031:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/064732.104716:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/064732.104739:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1045433:1045433:1115/065500.787389:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/065500.788599:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/065500.794283:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/065500.794301:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1049404:1049404:1115/065530.882606:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/065530.883809:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/065530.889447:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/065530.889471:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1060386:1060386:1115/065646.938898:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/065646.940118:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/065646.945877:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/065646.945905:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1078503:1078503:1115/070102.213924:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/070102.215312:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/070102.221423:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/070102.221455:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1078680:1078680:1115/070103.530187:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/070103.531459:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/070103.537091:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/070103.537114:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1101554:1101554:1115/070500.275351:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/070500.276596:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/070500.282336:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/070500.282356:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1102042:1102042:1115/070502.133692:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/070502.134988:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/070502.141165:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/070502.141190:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1131022:1131022:1115/071126.974517:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/071126.975724:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/071126.981590:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/071126.981605:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314
+                reject(new Error([
+                       ^
+
+Error: Failed to launch the browser process!
+[1131134:1131134:1115/071128.253472:FATAL:zygote_host_impl_linux.cc(128)] No usable sandbox! If you are running on Ubuntu 23.10+ or another Linux distro that has disabled unprivileged user namespaces with AppArmor, see https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md. Otherwise see https://chromium.googlesource.com/chromium/src/+/main/docs/linux/suid_sandbox_development.md for more information on developing with the (older) SUID sandbox. If you want to live dangerously and need an immediate workaround, you can try using --no-sandbox.
+[1115/071128.254599:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/online: No such file or directory (2)
+[1115/071128.260138:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[1115/071128.260152:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+
+
+TROUBLESHOOTING: https://pptr.dev/troubleshooting
+
+    at ChildProcess.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@puppeteer/browsers/lib/cjs/launch.js:314:24)
+    at ChildProcess.emit (node:events:531:35)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:52:48
+
+  49 let inv = {};
+  50 console.log(invoiceData.issueDate);
+  51 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 52 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:73
+            this._reject(callback, new Errors_js_1.TargetCloseError('Target closed'));
+                                   ^
+
+TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed
+    at CallbackRegistry.clear (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:73:36)
+    at CdpCDPSession._onClosed (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/CDPSession.js:101:25)
+    at #onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:167:21)
+    at WebSocket.<anonymous> (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/node/NodeWebSocketTransport.js:49:30)
+    at callListener (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:519:28)
+    at WebSocket.emitClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/ws/lib/websocket.js:272:10)
+    at Socket.socketOnClose (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/ws/lib/websocket.js:1341:15)
+    at Socket.emit (node:events:519:28) {
+  cause: ProtocolError
+      at <instance_members_initializer> (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:94:14)
+      at new Callback (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:98:16)
+      at CallbackRegistry.create (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:23:26)
+      at Connection._rawSend (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:90:26)
+      at CdpCDPSession.send (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/CDPSession.js:66:33)
+      at #evaluate (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:363:50)
+      at ExecutionContext.evaluate (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/ExecutionContext.js:278:36)
+      at IsolatedWorld.evaluate (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/IsolatedWorld.js:100:30)
+      at CdpPage.createPDFStream (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:807:18)
+      at CdpPage.pdf (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Page.js:839:37)
+}
+
+Node.js v20.17.0
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
+PrismaClientKnownRequestError: 
+Invalid `client.invoice.create()` invocation in
+/home/srv76157/domains/api.srv76157.seohost.com.pl/controllers/invoice.controller.js:53:48
+
+  50 let inv = {};
+  51 console.log(invoiceData.issueDate);
+  52 inv.invoiceNumber = invoiceData.invoiceNumber;
+→ 53 let invoice = yield client.invoice.create(
+Unique constraint failed on the constraint: `Invoice_invoiceNumber_key`
+    at $n.handleRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:7315)
+    at $n.handleAndLogRequestError (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6623)
+    at $n.request (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:121:6307)
+    at async l (/home/srv76157/nodevenv/domains/api.srv76157.seohost.com.pl/20/lib/node_modules/@prisma/client/runtime/library.js:130:9633) {
+  code: 'P2002',
+  clientVersion: '5.22.0',
+  meta: { modelName: 'Invoice', target: 'Invoice_invoiceNumber_key' }
+}
